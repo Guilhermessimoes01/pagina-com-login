@@ -1,0 +1,85 @@
+body,
+html{
+    background: rgba(87, 252, 211, 0.533);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.card_login{
+    height:500px;
+    width:350px;
+    margin-bottom:auto;
+    margin-top: auto;
+    background:#fae525;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+}
+
+.FORM_LOGIN{
+   margin-top: 10px;
+}
+
+.logo_circular{
+    height:250px;
+    width:350px;
+    margin-bottom:auto;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    top: -35%;
+    
+}
+
+.input_usuario{
+    outline: 0px;
+}
+
+.input-group-text{
+    background: #c0392b;
+    color: white;
+    border: 0;
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+/*.area_logo{
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    background: #60a3bc;
+    top:-75px;
+    padding:10px;
+}*/
+
+.custom-checkbox .custom_control-input:checked~ .custom-control-label::before{
+     background-color: #c0392b;
+
+    
+}
+
+
+.area_botao{
+    padding: 0 2rem;
+}
+
+.btn_login{
+    width: 100%;
+    background: #c0392b;
+    color: white;
+}
+
+.btn_login:focus{
+    box-shadow: none;
+    outline: 0px;
+}
+
+.btn_login:hover{
+    background: #ab3326;
+}
