@@ -1,3 +1,5 @@
 # pagina-com-login
-pagina lanchonete com login
-feita em PHP
+
+Esse projeto tinha como objetivo criar uma pagina de login, fiz para uma lanchonete.
+
+Nele usei a linguagem PHP. 
